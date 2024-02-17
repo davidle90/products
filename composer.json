@@ -16,5 +16,15 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Davidle90\\Products\\App\\Providers"
+            ],
+            "aliases": {
+                "products": "Davidle90\\Products\\App\\Facades\\Products"
+            }
+        }
     }
 }
